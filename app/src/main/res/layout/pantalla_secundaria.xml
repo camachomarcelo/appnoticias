@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/sistemas"
+        android:id="@+id/portada" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Titulo"
+        android:ems="10"
+        android:id="@+id/titulo"
+        android:textColor="#3498db"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenido"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
